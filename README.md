@@ -1,2 +1,60 @@
-# zebrafish-FDM-molds
-3D printed FDM molds for zebrafish imaging experiments; design files and instructions.
+# Customizable FDM 3D-printed zebrafish embryo molds for live imaging
+
+This repository provides design files, printing instructions, and documentation for 3D-printed zebrafish embryo orientation molds. The molds are designed to ensure dorsal positioning of embryos during live imaging  between 48 hours post-fertilization (hpf) and 5 days post-fertilization (dpf).
+
+Unlike previously published molds fabricated with SLA-based 3D printing, our approach uses FDM technology. While FDM produces less precise cavity shapes (rectangular rather than sharp triangular features), the molds remain highly effective for stabilizing zebrafish embryos and remain accessible and cost-efficient.
+
+---
+
+## 📂 Repository contents
+
+- `design_files/`
+  - `stl/` → ready-to-print STL files  
+  - `f3d/` → Fusion 360 editable files  
+  - `step/` → STEP files for CAD interoperability  
+- `printing/`
+  - `gcode/` → tested gcode files for 3D printers  
+  - `slicer_profiles/` → PrusaSlicer config (.3mf / .ini)  
+  - `printing_settings.md` → detailed printing settings  
+- `docs/`
+  - `zebrafish-molds-application-note.pdf`  
+  - `figures/`   
+- `LICENSE`  
+
+---
+
+## 🖨 Printing instructions
+
+1. Download STL files from `design_files/stl/`.
+2. Open in PrusaSlicer (or your slicer of choice).  
+   - Recommended settings are included in `printing/printing_settings.md`.
+3. Print using PLA material with a 0.4 mm nozzle...  
+4. Sand the printed molds to remove rough edges.  
+5. Apply a thin coat of two-part epoxy to create a smooth, sealed surface. Allow to cure fully before use.
+
+---
+
+## 🧪 Usage (needs revision)
+
+1. Pour 1% low-melting agarose into a 35 mm imaging dish.  
+2. While still soft, press the mold into agarose to create embryo-shaped wells.  
+3. Place zebrafish embryos (48 hpf-5 dpf) into the wells.  
+4. Add E3 medium (optionally with tricaine for anesthesia).  
+5. Proceed with imaging.  
+
+⚠️ **Note:** Embryos younger than 48 hpf are too small for this design. Separate molds with smaller wells would be required.
+
+---
+
+## 🔍 Design considerations
+
+- **Circular footprint**: Chosen to fit tightly into 14 mm and 21 mm coverslip dishes. 
+- **FDM vs SLA**: FDM printing with a 0.4 mm nozzle limits precision, resulting in rectangular cavities instead of sharp triangular ones. Functionality is unaffected, but geometric fidelity is reduced.  
+- **Stage compatibility**: Optimized for zebrafish between 48 hpf–5 dpf.  
+- **Accessibility**: All files are openly shared for reproduction and adaptation.  
+
+---
+
+## 📖 Citation
+
+
