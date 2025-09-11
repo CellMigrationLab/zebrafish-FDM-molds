@@ -31,7 +31,7 @@ These settings were generated and validated in PrusaSlicer 2.8.1 for an Original
 
 ---
 
-## Perimeters & Shell
+## Perimeters & shell
 - **Perimeters:** 2  
 - **Top solid layers:** 8  
 - **Bottom solid layers:** 5  
@@ -75,7 +75,7 @@ These settings were generated and validated in PrusaSlicer 2.8.1 for an Original
 
 ---
 
-## Post-Processing
+## Post-processing
 - After printing, sand the molds to remove roughness.  
 - Apply a thin coat of two-part epoxy and allow to cure for 24 h before use.  
 
