@@ -1,6 +1,6 @@
 # Printing settings for zebrafish molds
 
-These settings were generated and validated in PrusaSlicer 2.8.1 for an Original Prusa i3 MK3S/MK3S+ printer using Prusament PLA (1.75 mm, Jet Black).
+These settings were generated and validated in PrusaSlicer 2.8.1 for an Original Prusa i3 MK3S/MK3S+ printer using Prusament PLA (1.75 mm, Jet Black). May require adjustment for other printers/materials.
 
 ---
 
