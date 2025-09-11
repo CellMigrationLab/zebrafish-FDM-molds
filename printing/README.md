@@ -7,4 +7,5 @@ This repository provides multiple ways to reproduce the validated printing param
 - **`zfish-molds-print-settings.3mf`** → A PrusaSlicer project profile that can be dragged and dropped into PrusaSlicer for one-click setup.
 
 👉 If you are **not using PrusaSlicer**, refer to `printing_settings.md` for the full parameter set.
+
 👉 May require adjustment for other printers/materials.
