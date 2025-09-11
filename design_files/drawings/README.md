@@ -10,9 +10,9 @@ This folder contains 2D technical drawings of the zebrafish embryo molds. These 
 Each drawing includes:
 - Overall mold dimensions (diameter, height, slot spacing).  
 - Individual component views:  
-  - **Stamp** (slot pattern and depth).  
-  - **Stemlock** (circular locking ring).  
-  - **Stem** (removable handle).  
+  - Stamp (slot pattern and depth).  
+  - Stemlock (circular locking ring).  
+  - Stem (removable handle).  
 - Exploded views of how components fit together.   
 
 ## Notes
