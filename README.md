@@ -2,7 +2,11 @@
 
 This repository provides design files, printing instructions, and documentation for 3D-printed zebrafish embryo orientation molds. The molds are designed to ensure dorsal positioning of embryos during live imaging  between 48 hours post-fertilization (hpf) and 5 days post-fertilization (dpf).
 
-Unlike previously published molds fabricated with SLA-based 3D printing, our approach uses FDM technology. While FDM produces less precise cavity shapes (rectangular rather than sharp triangular features), the molds remain highly effective for stabilizing zebrafish embryos and remain accessible and cost-efficient.
+Unlike previously published molds fabricated with stereolithography (SLA)–based 3D printing, our approach uses fused deposition modeling (FDM). Both SLA and FDM are part of the broader category of additive manufacturing, in which objects are built up layer by layer rather than removed from a solid block (subtractive manufacturing) or formed in a mold (injection molding).
+- SLA printing relies on a laser or UV light to cure liquid resin layer by layer, producing parts with very fine resolution and smooth surfaces.
+- FDM printing extrudes melted thermoplastic filament (such as PLA) through a heated nozzle to build up layers, making it widely accessible and cost-effective but with lower resolution.
+
+Because of these differences, FDM produces less precise cavity shapes (rectangular rather than the sharp triangular features of the original CAD design). Nevertheless, the molds remain highly effective for stabilizing zebrafish embryos, while being affordable and easy to reproduce in most laboratory settings.
 
 ---
 
