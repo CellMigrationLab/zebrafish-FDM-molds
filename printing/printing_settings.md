@@ -77,7 +77,7 @@ These settings were generated and validated in PrusaSlicer 2.8.1 for an Original
 
 ## Post-Processing
 - After printing, sand the molds to remove roughness.  
-- Apply a thin coat of two-step epoxy resin and allow to cure for 24 h before use.  
+- Apply a thin coat of two-part epoxy and allow to cure for 24 h before use.  
 
 ---
 
