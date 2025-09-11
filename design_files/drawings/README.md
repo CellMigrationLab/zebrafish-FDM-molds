@@ -1,4 +1,4 @@
-# Technical Drawings
+# Technical drawings
 
 This folder contains 2D technical drawings of the zebrafish embryo molds. These provide a quick reference for dimensions and part relationships without requiring CAD software.
 
