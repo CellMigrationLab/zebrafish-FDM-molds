@@ -6,11 +6,15 @@ Unlike previously published molds fabricated with stereolithography (SLA)–base
 - SLA printing relies on a laser or UV light to cure liquid resin layer by layer, producing parts with very fine resolution and smooth surfaces.
 - FDM printing extrudes melted thermoplastic filament (such as PLA) through a heated nozzle to build up layers, making it widely accessible and cost-effective but with lower resolution.
 
-Because of these differences, SLA prints can reproduce the sharp triangular cavities of the CAD design, while FDM prints approximate them with rectangular cavities due to nozzle width (Figure 1A vs 1B). Nevertheless, the molds remain highly effective for stabilizing zebrafish embryos, while being affordable and easy to reproduce in most laboratory settings.
+Because of these differences, SLA prints can reproduce the sharp triangular cavities of the CAD design, while FDM prints approximate them with rectangular cavities due to nozzle width (Figure 1A vs 1B). Nevertheless, the molds (Figure 2) remain highly effective for stabilizing zebrafish embryos, while being affordable and easy to reproduce in most laboratory settings.
 
 <img src="docs/figures/FDMvsSLA.png" alt="FDM vs SLA printing comparison" width="600"/>
 
 **Figure 1.** Differences, through gcode preview, in mold slots between FDM (A) and SLA (B) printing.
+
+<img src="docs/figures/zebrafish-molds.png" alt="Zebrafish molds 3D designs" width="600"/>
+
+**Figure 2.** 3D designs of zebrafish embryo orientation molds. (A) Dimensions of the 20 mm and 13 mm molds. (B) Rendered view of the assembled molds. (C) Exploded view of components: stamp, stemlock, and stem. The modular design allows the stem to be inserted, rotated, and removed for easier handling.
 
 ---
 
