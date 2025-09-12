@@ -10,7 +10,7 @@ Because of these differences, SLA prints can reproduce the sharp triangular cavi
 
 <img src="docs/figures/FDMvsSLA.png" alt="FDM vs SLA printing comparison" width="600"/>
 
-**Figure 1.** Differences, through gcode preview, in mold cavity shape between FDM (A) and SLA (B) printing.
+**Figure 1.** Differences, through gcode preview, in mold slots between FDM (A) and SLA (B) printing.
 
 ---
 
