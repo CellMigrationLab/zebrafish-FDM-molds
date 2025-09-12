@@ -8,7 +8,7 @@ Unlike previously published molds fabricated with stereolithography (SLA)–base
 
 Because of these differences, SLA prints can reproduce the sharp triangular cavities of the CAD design, while FDM prints approximate them with rectangular cavities due to nozzle width (Figure 1A vs 1B). Nevertheless, the molds remain highly effective for stabilizing zebrafish embryos, while being affordable and easy to reproduce in most laboratory settings.
 
-![FDM vs SLA printing comparison](docs/figures/FDMvsSLA.png) | width=100  
+<img src="docs/figures/FDMvsSLA.png" alt="FDM vs SLA printing comparison" width="300"/>
 **Figure 1.** Differences, through gcode preview, in mold cavity shape between FDM (A) and SLA (B) printing.
 
 ---
