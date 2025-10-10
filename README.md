@@ -14,7 +14,8 @@ Because of these differences, SLA prints can reproduce the sharp triangular cavi
 
 <img src="docs/figures/zebrafish-molds.png" alt="Zebrafish molds 3D designs" width="600"/>
 
-**Figure 2.** 3D designs of zebrafish embryo orientation molds. (A) Dimensions of the 20 mm and 13 mm molds. (B) Rendered view of the assembled molds. (C) Exploded view of components: stamp, stemlock, and stem. The modular design allows the stem to be inserted, rotated, and removed for easier handling.
+**Figure 2.** 3D designs of zebrafish embryo orientation molds. (A) Dimensions of the 20 mm and 13 mm molds. (B) Rendered view of the assembled molds. (C) Exploded view of components: stamp, stemlock, and stem. The modular design allows the stem to be inserted, rotated, and removed for easier handling. (D) Agarose mold made using the seven- and twenty-teeth molds in a 13- and 20- mm glass-bottomed dish, respectively. (E) Left. Image showing empty agarose mold slots. Middle. Image showing several larvae inserted into the slots. Right. A closer look at some slots containing larvae. (F) (G) (H)
+
 
 ---
 
