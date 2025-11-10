@@ -1,4 +1,4 @@
-<img width="334" height="17" alt="image" src="https://github.com/user-attachments/assets/f9aa7353-e6df-472b-827c-8a97d88a60ef" /># Customizable FDM 3D-printed zebrafish embryo molds for live imaging
+# Customizable FDM 3D-printed zebrafish embryo molds for live imaging
 
 This repository provides design files, printing instructions, and documentation for 3D-printed zebrafish embryo orientation molds. The molds are designed to ensure dorsal positioning of embryos during live imaging  between 48 hours post-fertilization (hpf) and 5 days post-fertilization (dpf).
 
