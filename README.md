@@ -53,13 +53,9 @@ Scale bars F) Left. 1 mm, Right 500 µm; G) 40 µm; H) 50 µm; I) 25 µm.
 
 ---
 
-## 🧪 Usage (needs revision)
+## 🧪 Usage 
 
-1. Pour 1% low-melting agarose into a 35 mm imaging dish.  
-2. While still soft, press the mold into agarose to create embryo-shaped wells.  
-3. Place zebrafish embryos (48 hpf-5 dpf) into the wells.  
-4. Add E3 medium (optionally with tricaine for anesthesia).  
-5. Proceed with imaging.  
+
 
 ⚠️ **Note:** Embryos younger than 48 hpf are too small for this design. Separate molds with smaller wells would be required.
 
