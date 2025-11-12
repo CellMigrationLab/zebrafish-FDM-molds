@@ -1,6 +1,6 @@
 # STL Files (`.stl`)
 
-This folder contains the STL files for the zebrafish embryo molds. STL files describe the mesh geometry of the model and are the most common format for 3D printing. These are the files most users will want to download and slice directly.
+This folder contains the STL files for the zebrafish embryo molds. STL files describe the mesh geometry of the model and are the most common format for 3D printing. 
 
 ## Files
 - **`zfish-mold-stamp/stemlock/stem-D13.stl`** → Mold with 13 mm diameter, designed for 14 mm coverslip plates.  
