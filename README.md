@@ -14,8 +14,11 @@ Because of these differences, SLA prints can reproduce the sharp triangular cavi
 
 **Figure 1.** Differences, through gcode preview, in mold slots between FDM (A) and SLA (B) printing.
 
+<p align="center">
 <img src="docs/figures/Figure1.png" alt="Zebrafish molds 3D designs" width="600"/>
+</p>
 
+<p align="center">
 **Figure 2.** FDM-printing based mold design enhances the live in vivo imaging of the brain vascularization of zebrafish embryos. 
 (A) CAD renderings of two circular mold sizes (20 mm and 13 mm) with slot dimensions in mm. Each slot measures 0.40 mm wide at the narrowest point, 0.60 mm at the widest, and extends 5.50 mm deep; the spacing between slots is 1.00 mm, and the slot height above the base is 2.00 mm. The smaller mold was designed for use with 14 mm coverslips, while the larger one was tested with 21 mm coverslips. The mold design was kept circular rather than rectangular to fit tightly within the well and stay level. Design files for both sizes are available for download via the associated GitHub repository. 
 (B) Perspective views of the assembled molds. 
@@ -26,6 +29,7 @@ Because of these differences, SLA prints can reproduce the sharp triangular cavi
 (G) Brightfield midplane-volume image of the 56hpf larvae Tg(fli1a:GFP);Tg (gata1a:DsRed) just before the onset of time-lapse acquisition. Scale bar: 50 µm.
 (H) Maximum intensity projection of horizontal sections of overnight time-lapse imaging of vasculature, Tg(Fli1a:GFP, cyan), and erythrocytes, Tg(gata1a:DsRed, red), in the developing brain of the mounted larvae.  The first timepoint is shown in panel (i). Temporal color coding of the fli1:GFP signal over the acquisition (time-lapse, 20min imaging interval, 32 time points) (ii). Color-bar indicates the transition from time-point 1 (magenta) to 32 (bright yellow). See also Movie S1. Scale bars: 50 µm. 
 (I) High-magnification (63x) imaging of brain vascularization process. Shown is the maximum intensity projection of the first acquisition time point (i). Magnified area (indicated with an orange rectangle) shows filopodia-like protrusions extending from the fli1:GFP-positive (cyan) endothelial tip cell (ii). Scale bars: 25 µm and 5 µm, respectively. 
+</p>
 
 <img src="docs/figures/MovieS1.gif" alt="Supplementary movie" width="600"/>
 
