@@ -60,20 +60,14 @@ Because of these differences, SLA prints can reproduce the sharp triangular cavi
 
 ---
 
-## 🧪 Usage 
-
-
-
-⚠️ **Note:** Embryos younger than 48 hpf are too small for this design. Separate molds with smaller wells would be required.
-
----
-
 ## 🔍 Design considerations
 
 - **Circular footprint**: Chosen to fit tightly into 14 mm and 21 mm coverslip dishes. 
 - **FDM vs SLA**: FDM printing with a 0.4 mm nozzle limits precision, resulting in rectangular cavities instead of sharp triangular ones. Functionality is unaffected, but geometric fidelity is reduced.  
 - **Stage compatibility**: Optimized for zebrafish between 48 hpf–5 dpf.  
 - **Accessibility**: All files are openly shared for reproduction and adaptation.
+
+⚠️ **Note:** Embryos younger than 48 hpf are too small for this design. Separate molds with smaller wells would be required.
 
 ## 📚 References
 
