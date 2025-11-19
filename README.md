@@ -54,9 +54,9 @@ Because of these differences, SLA prints can reproduce the sharp triangular cavi
 1. Download STL files from `design_files/stl/`.
 2. Open in PrusaSlicer (or your slicer of choice).  
    - Recommended settings are included in `printing/printing_settings.md`.
-3. Print using PLA material with a 0.4 mm nozzle...  
-4. Sand the printed molds to remove rough edges.  
-5. Apply a thin coat of two-part epoxy to create a smooth, sealed surface. Allow to cure fully before use.
+3. Print using PLA material with a 0.4 mm nozzle.  
+4. Carefully sand the printed molds to remove rough edges.  
+5. Apply a thin coat of two-part epoxy to create a smooth, sealed surface. Allow to cure fully before use (24h or as required by the manufacturer).
 
 ---
 
