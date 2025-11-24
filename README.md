@@ -1,6 +1,6 @@
 # Customizable FDM 3D-printed zebrafish embryo molds for live imaging
 
-This repository provides design files, printing instructions, and documentation for 3D-printed zebrafish embryo orientation molds. The molds are designed to ensure dorsal positioning of embryos during live imaging  between 48 hours post-fertilization (hpf) and 5 days post-fertilization (dpf).
+This repository provides design files, printing instructions, and documentation for 3D-printed zebrafish embryo orientation molds. The molds are designed to ensure dorsal positioning of embryos during live imaging  between 50 hours post-fertilization (hpf) and 5 days post-fertilization (dpf).
 
 Unlike previously published molds fabricated with stereolithography (SLA)–based 3D printing (e.g., Geng & Peterson, 2021; Kleinhans & Lecaudey, 2019; Miller et al., 2025; Wittbrodt et al., 2014), our approach uses fused deposition modeling (FDM). Both SLA and FDM are part of the broader category of additive manufacturing, in which objects are built up layer by layer rather than removed from a solid block (subtractive manufacturing) or formed in a mold (injection molding).
 - SLA printing relies on a laser or UV light to cure liquid resin layer by layer, producing parts with very fine resolution and smooth surfaces.
@@ -18,16 +18,16 @@ Because of these differences, SLA prints can reproduce the sharp triangular cavi
 <img src="docs/figures/Figure1.png" alt="Zebrafish molds 3D designs" width="600"/>
 </p>
 
-**Figure 2.** FDM-printing based mold design enhances the live in vivo imaging of the brain vascularization of zebrafish embryos. 
-(A) CAD renderings of two circular mold sizes (20 mm and 13 mm) with slot dimensions in mm. Each slot measures 0.40 mm wide at the narrowest point, 0.60 mm at the widest, and extends 5.50 mm deep; the spacing between slots is 1.00 mm, and the slot height above the base is 2.00 mm. The smaller mold was designed for use with 14 mm coverslips, while the larger one was tested with 21 mm coverslips. The mold design was kept circular rather than rectangular to fit tightly within the well and stay level. Design files for both sizes are available for download via the associated GitHub repository. 
-(B) Perspective views of the assembled molds. 
-(C) Wells in 1% low-melting-point agarose were made using the seven- and twenty-tooth molds in 14- and 21-mm glass-bottom dishes, respectively. 
-(D) PrusaSlicer g-code preview illustrating how FDM resolution (0.4 mm nozzle) converts triangular cavities into rectangular slots. 
-(E) Exploded view of mold components, with a removable handle to facilitate positioning in small dishes. 
-(F) Left Top. Image showing empty agarose wells created using the seven-teeth mold. Left Bottom. Image showing 56 hpf Tg(fli1a:GFP);Tg gata1a:DsRed) larvae inserted into the wells. The orange rectangle indicates an area magnified in the next panel. Right. Magnified area of mounted larvae. Live imaging of the middle larvae, marked with an orange square, is illustrated in the next panels. Scale bars: left panels 1 mm, right panel 500 µm. 
-(G) Brightfield midplane-volume image of the 56hpf larvae Tg(fli1a:GFP);Tg (gata1a:DsRed) just before the onset of time-lapse acquisition. Scale bar: 50 µm.
-(H) Maximum intensity projection of horizontal sections of overnight time-lapse imaging of vasculature, Tg(Fli1a:GFP, cyan), and erythrocytes, Tg(gata1a:DsRed, red), in the developing brain of the mounted larvae.  The first timepoint is shown in panel (i). Temporal color coding of the fli1:GFP signal over the acquisition (time-lapse, 20min imaging interval, 32 time points) (ii). Color-bar indicates the transition from time-point 1 (magenta) to 32 (bright yellow). See also Movie S1. Scale bars: 50 µm. 
-(I) High-magnification (63x) imaging of brain vascularization process. Shown is the maximum intensity projection of the first acquisition time point (i). Magnified area (indicated with an orange rectangle) shows filopodia-like protrusions extending from the fli1:GFP-positive (cyan) endothelial tip cell (ii). Scale bars: 25 µm and 5 µm, respectively. 
+**Figure 2.** FDM-printing-based mold design improves live in vivo imaging of brain vascularization in developing zebrafish embryos.
+A) CAD renderings of two circular mold sizes (20 mm and 13 mm) with slot dimensions in millimeters. Each slot measures 0.40 mm wide at the narrowest point, 0.60 mm at the widest, and extends 5.50 mm deep; the spacing between slots is 1.00 mm, and the slot height above the base is 2.00 mm. The smaller mold was designed for use with 14 mm coverslips, while the larger one was tested with 21 mm coverslips. The mold design was kept circular rather than rectangular to fit tightly within the well and stay level. Design files for both sizes are available for download via the associated GitHub repository. 
+B) Perspective views of the assembled molds. 
+C) Wells in 1.5% low-melting-point agarose were made using the seven- and twenty-tooth molds in 14- and 21-mm glass-bottom dishes, respectively. 
+D) PrusaSlicer g-code preview illustrating how FDM resolution (0.4 mm nozzle) converts triangular cavities into rectangular slots. 
+E) Exploded view of mold components, with a removable handle to facilitate positioning in small dishes. 
+F) Top left: image showing empty agarose wells created using the seven-teeth mold. Bottom left: image showing 56 hpf Tg(fli1a:GFP);Tg gata1a:DsRed) embryos inserted into the wells. The black-dotted box indicates the area magnified in the next panel. Right: magnified area of mounted larvae. Live brightfield imaging of the middle larvae, marked with an orange box, is presented in panel G). Scale bars: left panels 1 mm, right panel 500 µm. 
+G) Brightfield midplane-volume image of the 56hpf Tg(fli1a:GFP);Tg (gata1a:DsRed) embryo from panel F (orange boxed region), before the start of time-lapse acquisition, shown in panels H-I, orange box. Scale bar: 50 µm. 
+H) Maximum intensity projection of horizontal sections from overnight time-lapse imaging of vasculature, Tg(Fli1a:GFP, cyan), and erythrocytes, Tg(gata1a:DsRed, red), in the developing brain of the mounted larvae (identical to those shown in panels F-G, orange box). The first timepoint is shown in panel (i). Temporal color coding of the fli1:GFP signal over the acquisition (time-lapse, 20-minute imaging interval, 32 time points) (ii). The color bar indicates the transition from time point 1 (magenta) to 32 (bright yellow). See also Movie S1. Scale bars: 50 µm. 
+I) High-magnification (63x) imaging of the brain vascularization process. The maximum intensity projection of the first acquisition time point is shown in (i). The magnified area (indicated with an orange rectangle) shows filopodia-like protrusions extending from the fli1:GFP-positive (cyan) endothelial tip cell (ii). The gata1a:DsRed positive erythrocytes (red) inside a more mature blood vessel are also shown. See also Movie S1. Scale bars: 25 µm and 5 µm, respectively.
 
 <p align="center">
 <img src="docs/figures/MovieS1.gif" alt="Supplementary movie" width="600"/>
@@ -70,10 +70,10 @@ Because of these differences, SLA prints can reproduce the sharp triangular cavi
 
 - **Circular footprint**: Chosen to fit tightly into 14 mm and 21 mm coverslip dishes. 
 - **FDM vs SLA**: FDM printing with a 0.4 mm nozzle limits precision, resulting in rectangular cavities instead of sharp triangular ones. Functionality is unaffected, but geometric fidelity is reduced.  
-- **Stage compatibility**: Optimized for zebrafish between 48 hpf–5 dpf.  
+- **Stage compatibility**: Optimized for zebrafish between 50 hpf–5 dpf.  
 - **Accessibility**: All files are openly shared for reproduction and adaptation.
 
-⚠️ **Note:** Embryos younger than 48 hpf are too small for this design. Separate molds with smaller wells would be required.
+⚠️ **Note:** Embryos younger than 50 hpf are too small for this design. Separate molds with smaller wells would be required.
 
 ## 📚 References
 
