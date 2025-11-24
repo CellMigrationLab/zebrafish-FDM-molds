@@ -15,7 +15,7 @@ Because of these differences, SLA prints can reproduce the sharp triangular cavi
 **Figure 1.** Differences, through gcode preview, in mold slots between FDM (A) and SLA (B) printing.
 
 <p align="center">
-<img src="docs/figures/Figure1.png" alt="Zebrafish molds 3D designs" width="600"/>
+<img src="docs/figures/FDMvsSLA.png" alt="Zebrafish molds 3D designs" width="600"/>
 </p>
 
 **Figure 2.** FDM-printing-based mold design improves live in vivo imaging of brain vascularization in developing zebrafish embryos.
