@@ -96,4 +96,25 @@ I) High-magnification (63x) imaging of the brain vascularization process. The ma
 
 ## 📖 Citation
 
+If you use these zebrafish molds or get inspired from them in your research, please cite as:
+
+**Customizable FDM-based zebrafish embryo mold for live imaging**  
+Rivera Pineda MX, Lehtimäki J, Jacquemet G.  
+*bioRxiv* (2025)
+
+[![DOI](https://img.shields.io/badge/doi-10.1101%2F2025.11.24.689779-blue)](https://doi.org/10.1101/2025.11.24.689779)
+
+@article{2025fdm_zfishmold,
+  author = {Rivera Pineda, Marcela Xiomara and Lehtim{\"a}ki, Jaakko and Jacquemet, Guillaume},
+  title = {Customizable FDM-based zebrafish embryo mold for live imaging},
+  elocation-id = {2025.11.24.689779},
+  year = {2025},
+  doi = {10.1101/2025.11.24.689779},
+  url = {https://www.biorxiv.org/content/early/2025/11/26/2025.11.24.689779},
+  eprint = {https://www.biorxiv.org/content/early/2025/11/26/2025.11.24.689779.full.pdf},
+  journal = {bioRxiv},
+  note = {preprint}
+}
+
+
 
