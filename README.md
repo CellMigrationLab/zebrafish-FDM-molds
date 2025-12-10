@@ -64,16 +64,17 @@ I) High-magnification (63x) imaging of the brain vascularization process. The ma
 4. Carefully sand the printed molds to remove rough edges.  
 5. Apply a thin coat of two-part epoxy over all surfaces of the mold that contact the agarose gel to create a smooth, sealed surface. Allow to cure fully before use (24h or as required by the manufacturer).
 
----
 
 ## 🛠️ Assembly instructions
 
 <p align="center">
-<img src="docs/figures/FDMvsSLA.png" alt="FDM vs SLA printing comparison" width="600"/>
+<img src="docs/figures/Figure3_assembly_zebrafish_molds.png" alt="zebrafish mold assembly steps" width="600"/>
 </p>
 
 **Figure 3.** Assembly of the zebrafish molds.
 **Step 1:** The stamp component is glued to the middle ring, forming a single object and creating an internal pocket. **Step 2:** The stem is inserted into this pocket and rotated ~180° to lock or unlock its position. Once assembled, the mold is ready for use.
+
+---
 
 ## 🔍 Design considerations
 
