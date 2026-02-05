@@ -71,6 +71,8 @@ Steps:
 <p align="center">
 <img src="docs/figures/Figure3. how-to-redesign.png" alt="how to redesign the zebrafish molds" width="600"/>
 </p>
+
+**Figure 3.** How to redesign the zebrafish molds.
 ---
 
 ## 🖨 Printing and assembly instructions
