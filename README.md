@@ -1,3 +1,21 @@
+## 📂 Repository contents
+- `READMe.md file`
+  - Description of tool
+  - How to print and assemble
+  - How to redesign
+- `design_files/`
+  - `stl/` → ready-to-print STL files  
+  - `f3d/` → Fusion 360 editable files  
+  - `step/` → STEP files for CAD interoperability  
+- `printing/`
+  - `gcode/` → tested gcode files for 3D printers  
+  - `slicer_profiles/` → PrusaSlicer config (.3mf / .ini)  
+  - `printing_settings.md` → detailed printing settings  
+- `docs/`
+  - `zebrafish-molds-application-note.pdf`  
+  - `figures/`   
+- `LICENSE`  
+---
 # Customizable FDM 3D-printed zebrafish embryo molds for live imaging
 
 This repository provides design files, printing instructions, and documentation for 3D-printed zebrafish embryo orientation molds. The molds are designed to ensure dorsal positioning of embryos during live imaging  between 50 hours post-fertilization (hpf) and 5 days post-fertilization (dpf).
@@ -35,44 +53,43 @@ I) High-magnification (63x) imaging of the brain vascularization process. The ma
 
 **Supplementary Movie S1.** Part A. Vascular development in the developing braing. Part B. Zoom-in into the brain vascularizarion process. Same embryo as in Part A.
 
+---
+## How-to redesign the wells
 
+***Note 1:*** Changing one dimension of the first well propagates to the others. Therefore, after edits, you should always check for overlapping and spacing. 
+***Note 2:*** These steps can be implemented to modify other dimensions of the mold, such as the depth of the wells or diameter of the mold.
+***Note 3:*** All redesign steps were performed in Autodesk Fusion 360. Although Fusion 360 is subscription-based, a free educational license is available for academic users.
+
+<p align="center">
+<img src="docs/figures/Figure3. how-to-redesign.png" alt="how to redesign the zebrafish molds" width="600"/>
+</p>
+
+Steps:
+1. Open the corresponding mold file (.f3d file) in Fusion 360. Open the wells sketch by double-clicking the first sketch in the Timeline (highlighted by the red rectangle in Figure 3A).
+2. Modify well dimensions by double-clicking the desired dimension as shown in Figure 3B (red rectangle). Edit the relevant dimensions (head width, neck width, length) according to the embryo/larvae stage. See Figure 3E for suggested dimensions based on embryo stage.
+3. After resizing the wells, check the dimension regarding the distance between the first well and the edge reference. Update it so the modified wells still fit cleanly within the diameter boundary. E.g.: 1.4 mm (Figure 3B, red triangle) to 1.2 mm (Figure 3C, red triangle) after changing the well geometry.
+4. Verify spacing and pattern integrity by ensuring that the wells don’t overlap after the update. If the wells overlap, modify the spacing by zooming in, and double clicking the Rectangular Pattern Constraint (dotted rectangle in Figure 3D) and adjusting the amount of wells (green rectangle in Figure 3D) and distance between them (magenta rectangle in Figure 3D).
+5. Click Finish Sketch. In the Timeline, confirm the extrude and cut features regenerated correctly.
+6. Export the updated mold as an STL file and proceed to slicing and 3D printing. To export, go to File> Export…, and change the Type to STL Files (*.stl).
 ---
 
-## 📂 Repository contents
-
-- `design_files/`
-  - `stl/` → ready-to-print STL files  
-  - `f3d/` → Fusion 360 editable files  
-  - `step/` → STEP files for CAD interoperability  
-- `printing/`
-  - `gcode/` → tested gcode files for 3D printers  
-  - `slicer_profiles/` → PrusaSlicer config (.3mf / .ini)  
-  - `printing_settings.md` → detailed printing settings  
-- `docs/`
-  - `zebrafish-molds-application-note.pdf`  
-  - `figures/`   
-- `LICENSE`  
-
----
-
-## 🖨 Printing instructions
+## 🖨 Printing and assembly instructions
 
 1. Download STL files from `design_files/stl/`.
 2. Open in PrusaSlicer (or your slicer of choice).  
    - Recommended settings are included in `printing/printing_settings.md`.
 3. Print using PLA material with a 0.4 mm nozzle.  
-4. Carefully sand the printed molds to remove rough edges.  
+4. ⚠️ Critical step.  Carefully sand the printed molds to remove rough edges. 
 5. Apply a thin coat of two-part epoxy over all surfaces of the mold that contact the agarose gel to create a smooth, sealed surface. Allow to cure fully before use (24h or as required by the manufacturer).
-
-
-## 🛠️ Assembly instructions
+6. The stamp component is glued to the middle ring, forming a single object and creating an internal pocket. 
+7. The stem is inserted into this pocket and rotated ~180° to lock or unlock its position. Once assembled, the mold is ready for use.
 
 <p align="center">
 <img src="docs/figures/Figure3_assembly_zebrafish_molds.png" alt="zebrafish mold assembly steps" width="600"/>
 </p>
 
-**Figure 3.** Assembly of the zebrafish molds.
-**Step 1:** The stamp component is glued to the middle ring, forming a single object and creating an internal pocket. **Step 2:** The stem is inserted into this pocket and rotated ~180° to lock or unlock its position. Once assembled, the mold is ready for use.
+**Figure 4.** Assembly of the zebrafish molds.
+
 
 ---
 
