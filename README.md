@@ -69,10 +69,11 @@ Steps:
 6. Export the updated mold as an STL file and proceed to slicing and 3D printing. To export, go to File> Export…, and change the Type to STL Files (*.stl).
 
 <p align="center">
-<img src="docs/figures/Figure3. how-to-redesign.png" alt="how to redesign the zebrafish molds" width="600"/>
+<img src="docs/figures/Figure3. how-to-redesign.png" alt="how to redesign the zebrafish molds" width="900"/>
 </p>
 
 **Figure 3.** How to redesign the zebrafish molds.
+
 ---
 
 ## 🖨 Printing and assembly instructions
