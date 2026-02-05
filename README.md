@@ -1,5 +1,5 @@
 ## 📂 Repository contents
-- `READMe.md file`
+- `README.md file`
   - Description of tool
   - How to print and assemble
   - How to redesign
