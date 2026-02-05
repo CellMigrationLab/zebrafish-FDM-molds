@@ -60,10 +60,6 @@ I) High-magnification (63x) imaging of the brain vascularization process. The ma
 ***Note 2:*** These steps can be implemented to modify other dimensions of the mold, such as the depth of the wells or diameter of the mold.
 ***Note 3:*** All redesign steps were performed in Autodesk Fusion 360. Although Fusion 360 is subscription-based, a free educational license is available for academic users.
 
-<p align="center">
-<img src="docs/figures/Figure3. how-to-redesign.png" alt="how to redesign the zebrafish molds" width="600"/>
-</p>
-
 Steps:
 1. Open the corresponding mold file (.f3d file) in Fusion 360. Open the wells sketch by double-clicking the first sketch in the Timeline (highlighted by the red rectangle in Figure 3A).
 2. Modify well dimensions by double-clicking the desired dimension as shown in Figure 3B (red rectangle). Edit the relevant dimensions (head width, neck width, length) according to the embryo/larvae stage. See Figure 3E for suggested dimensions based on embryo stage.
@@ -71,6 +67,10 @@ Steps:
 4. Verify spacing and pattern integrity by ensuring that the wells don’t overlap after the update. If the wells overlap, modify the spacing by zooming in, and double clicking the Rectangular Pattern Constraint (dotted rectangle in Figure 3D) and adjusting the amount of wells (green rectangle in Figure 3D) and distance between them (magenta rectangle in Figure 3D).
 5. Click Finish Sketch. In the Timeline, confirm the extrude and cut features regenerated correctly.
 6. Export the updated mold as an STL file and proceed to slicing and 3D printing. To export, go to File> Export…, and change the Type to STL Files (*.stl).
+
+<p align="center">
+<img src="docs/figures/Figure3. how-to-redesign.png" alt="how to redesign the zebrafish molds" width="600"/>
+</p>
 ---
 
 ## 🖨 Printing and assembly instructions
@@ -85,7 +85,7 @@ Steps:
 7. The stem is inserted into this pocket and rotated ~180° to lock or unlock its position. Once assembled, the mold is ready for use.
 
 <p align="center">
-<img src="docs/figures/Figure3_assembly_zebrafish_molds.png" alt="zebrafish mold assembly steps" width="600"/>
+<img src="docs/figures/Figure4_assembly_zebrafish_molds.png" alt="zebrafish mold assembly steps" width="600"/>
 </p>
 
 **Figure 4.** Assembly of the zebrafish molds.
