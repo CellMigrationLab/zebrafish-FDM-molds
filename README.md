@@ -37,15 +37,15 @@ Because of these differences, SLA prints can reproduce the sharp triangular cavi
 </p>
 
 **Figure 2.** FDM-printing-based mold design improves live in vivo imaging of brain vascularization in developing zebrafish embryos.
-A) CAD renderings of two circular mold sizes (20 mm and 13 mm) with slot dimensions in millimeters. Each slot measures 0.40 mm wide at the narrowest point, 0.60 mm at the widest, and extends 5.50 mm deep; the spacing between slots is 1.00 mm, and the slot height above the base is 2.00 mm. The smaller mold was designed for use with 14 mm coverslips, while the larger one was tested with 21 mm coverslips. The mold design was kept circular rather than rectangular to fit tightly within the well and stay level. Design files for both sizes are available for download via the associated GitHub repository. 
-B) Perspective views of the assembled molds. 
-C) Wells in 1.5% low-melting-point agarose were made using the seven- and twenty-tooth molds in 14- and 21-mm glass-bottom dishes, respectively. 
-D) PrusaSlicer g-code preview illustrating how FDM resolution (0.4 mm nozzle) converts triangular cavities into rectangular slots. 
-E) Exploded view of mold components, with a removable handle to facilitate positioning in small dishes. 
-F) Top left: image showing empty agarose wells created using the seven-teeth mold. Bottom left: image showing 56 hpf Tg(fli1a:GFP);Tg gata1a:DsRed) embryos inserted into the wells. The black-dotted box indicates the area magnified in the next panel. Right: magnified area of mounted larvae. Live brightfield imaging of the middle larvae, marked with an orange box, is presented in panel G). Scale bars: left panels 1 mm, right panel 500 µm. 
-G) Brightfield midplane-volume image of the 56hpf Tg(fli1a:GFP);Tg (gata1a:DsRed) embryo from panel F (orange boxed region), before the start of time-lapse acquisition, shown in panels H-I, orange box. Scale bar: 50 µm. 
+(A) CAD renderings of two circular mold sizes (20 mm and 13 mm) with slot dimensions in millimeters. Each slot measures 0.40 mm wide at the narrowest point, 0.60 mm at the widest, and extends 5.50 mm deep; the spacing between slots is 1.00 mm, and the slot height above the base is 2.00 mm. The smaller mold was designed for use with 14 mm coverslips, while the larger one was tested with 21 mm coverslips. The mold design was kept circular rather than rectangular to fit tightly within the well and stay level. Design files for both sizes are available for download via the associated GitHub repository. 
+(B) Perspective views of the assembled molds. 
+(C) Wells in 1.5% low-melting-point agarose were made using the seven- and twenty-tooth molds in 14- and 21-mm glass-bottom dishes, respectively. 
+(D) PrusaSlicer g-code preview illustrating how FDM resolution (0.4 mm nozzle) converts triangular cavities into rectangular slots. 
+(E) Exploded view of mold components, with a removable handle to facilitate positioning in small dishes. 
+(F) Top left: image showing empty agarose wells created using the seven-teeth mold. Bottom left: image showing 56 hpf Tg(fli1a:GFP);Tg gata1a:DsRed) embryos inserted into the wells. The black-dotted box indicates the area magnified in the next panel. Right: magnified area of mounted larvae. Live brightfield imaging of the middle larvae, marked with an orange box, is presented in panel G). Scale bars: left panels 1 mm, right panel 500 µm. 
+(G) Brightfield midplane-volume image of the 56hpf Tg(fli1a:GFP);Tg (gata1a:DsRed) embryo from panel F (orange boxed region), before the start of time-lapse acquisition, shown in panels H-I, orange box. Scale bar: 50 µm. 
 H) Maximum intensity projection of horizontal sections from overnight time-lapse imaging of vasculature, Tg(Fli1a:GFP, cyan), and erythrocytes, Tg(gata1a:DsRed, red), in the developing brain of the mounted larvae (identical to those shown in panels F-G, orange box). The first timepoint is shown in panel (i). Temporal color coding of the fli1:GFP signal over the acquisition (time-lapse, 20-minute imaging interval, 32 time points) (ii). The color bar indicates the transition from time point 1 (magenta) to 32 (bright yellow). See also Movie S1. Scale bars: 50 µm. 
-I) High-magnification (63x) imaging of the brain vascularization process. The maximum intensity projection of the first acquisition time point is shown in (i). The magnified area (indicated with an orange rectangle) shows filopodia-like protrusions extending from the fli1:GFP-positive (cyan) endothelial tip cell (ii). The gata1a:DsRed positive erythrocytes (red) inside a more mature blood vessel are also shown. See also Movie S1. Scale bars: 25 µm and 5 µm, respectively.
+(I) High-magnification (63x) imaging of the brain vascularization process. The maximum intensity projection of the first acquisition time point is shown in (i). The magnified area (indicated with an orange rectangle) shows filopodia-like protrusions extending from the fli1:GFP-positive (cyan) endothelial tip cell (ii). The gata1a:DsRed positive erythrocytes (red) inside a more mature blood vessel are also shown. See also Movie S1. Scale bars: 25 µm and 5 µm, respectively.
 
 <p align="center">
 <img src="docs/figures/MovieS1.gif" alt="Supplementary movie" width="600"/>
@@ -62,17 +62,22 @@ I) High-magnification (63x) imaging of the brain vascularization process. The ma
 
 Steps:
 1. Open the corresponding mold file (.f3d file) in Fusion 360. Open the wells sketch by double-clicking the first sketch in the Timeline (highlighted by the red rectangle in Figure 3A).
-2. Modify well dimensions by double-clicking the desired dimension as shown in Figure 3B (red rectangle). Edit the relevant dimensions (head width, neck width, length) according to the embryo/larvae stage. See Figure 3E for suggested dimensions based on embryo stage.
+2. Modify well dimensions by double-clicking the desired dimension as shown in Figure 3B (red rectangle). Edit the relevant dimensions (head width, neck width, length) according to the embryo/larvae stage. See Figure 3E for suggested dimensions based on embryo stage (based on Kimmel et al. (1995)).
 3. After resizing the wells, check the dimension regarding the distance between the first well and the edge reference. Update it so the modified wells still fit cleanly within the diameter boundary. E.g.: 1.4 mm (Figure 3B, red triangle) to 1.2 mm (Figure 3C, red triangle) after changing the well geometry.
-4. Verify spacing and pattern integrity by ensuring that the wells don’t overlap after the update. If the wells overlap, modify the spacing by zooming in, and double clicking the Rectangular Pattern Constraint (dotted rectangle in Figure 3D) and adjusting the amount of wells (green rectangle in Figure 3D) and distance between them (magenta rectangle in Figure 3D).
+4. Verify spacing and pattern integrity by ensuring that the wells don’t overlap after the update. If the wells overlap, modify the spacing by zooming in, and double clicking the Rectangular Pattern Constraint (dotted rectangle in Figure 3D) and adjusting the amount of wells (green triangle in Figure 3D) and distance between them (magenta triangle in Figure 3D).
 5. Click Finish Sketch. In the Timeline, confirm the extrude and cut features regenerated correctly.
 6. Export the updated mold as an STL file and proceed to slicing and 3D printing. To export, go to File> Export…, and change the Type to STL Files (*.stl).
+
 
 <p align="center">
 <img src="docs/figures/Figure3. how-to-redesign.png" alt="how to redesign the zebrafish molds" width="900"/>
 </p>
 
-**Figure 3.** How to redesign the zebrafish molds.
+**Figure 3.** How to redesign the zebrafish molds. 
+(A) Autodesk Fusion 360 project file showing the mold with replicated wells arranged to fit a standard glass-bottom imaging dish. The red rectangle highlights the sketch to edit to modify the wells’ dimensions.
+(B–C) The well sketch can be edited by opening the first sketch in the Timeline and modifying the parameterized dimensions (example shown for the first well; red rectangle). After resizing, the offset between the first well and the dish boundary should be updated to ensure the pattern remains within the circular mold footprint (red triangle). 
+(D) If resizing causes wells to overlap, spacing and/or the number of wells can be adjusted using the Rectangular Pattern Constraint (dotted black rectangle). 
+(E) Suggested stage-dependent dimensions to guide redesign: (Ei) embryo measurements (dorso- ventral orientation) extracted from Kimmel et al. (1995); (Eii) corresponding recommended well parameters for FDM printing; (Eiii) corresponding parameters for higher-precision printing (e.g., SLA). Right: schematic of the well geometry indicating the editable parameters A-D (mm) used throughout the tables.
 
 ---
 
