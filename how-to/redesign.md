@@ -12,10 +12,9 @@ Steps:
 5. Click Finish Sketch. In the Timeline, confirm the extrude and cut features regenerated correctly.
 6. Export the updated mold as an STL file and proceed to slicing and 3D printing. To export, go to File> Export…, and change the Type to STL Files (*.stl).
 
-
-
-<img src="zebrafish-FDM-molds/docs/figures/Figure3. how-to-redesign.png" alt="how to redesign the zebrafish molds" width="900"/>
-
+<p align="center">
+<img src="docs/figures/Figure3. how-to-redesign.png" alt="how to redesign the zebrafish molds" width="900"/>
+</p>
 
 **Figure 3.** How to redesign the zebrafish molds. 
 (A) Autodesk Fusion 360 project file showing the mold with replicated wells arranged to fit a standard glass-bottom imaging dish. The red rectangle highlights the sketch to edit to modify the wells’ dimensions.
