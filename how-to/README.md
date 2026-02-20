@@ -16,7 +16,7 @@ Steps:
 <img src="../docs/figures/Figure3. how-to-redesign.png" alt="how to redesign the zebrafish molds" width="900"/>
 </p>
 
-**Figure 3.** How to redesign the zebrafish molds. 
+**Figure 1.** How to redesign the zebrafish molds. 
 (A) Autodesk Fusion 360 project file showing the mold with replicated wells arranged to fit a standard glass-bottom imaging dish. The red rectangle highlights the sketch to edit to modify the wells’ dimensions.
 (B–C) The well sketch can be edited by opening the first sketch in the Timeline and modifying the parameterized dimensions (example shown for the first well; red rectangle). After resizing, the offset between the first well and the dish boundary should be updated to ensure the pattern remains within the circular mold footprint (red triangle). 
 (D) If resizing causes wells to overlap, spacing and/or the number of wells can be adjusted using the Rectangular Pattern Constraint (dotted black rectangle). 
