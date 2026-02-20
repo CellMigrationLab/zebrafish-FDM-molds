@@ -14,7 +14,7 @@ Steps:
 
 
 
-<img src="docs/figures/Figure3. how-to-redesign.png" alt="how to redesign the zebrafish molds" width="900"/>
+<img src="zebrafish-FDM-molds/docs/figures/Figure3. how-to-redesign.png" alt="how to redesign the zebrafish molds" width="900"/>
 
 
 **Figure 3.** How to redesign the zebrafish molds. 
