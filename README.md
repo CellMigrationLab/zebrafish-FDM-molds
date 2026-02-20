@@ -76,7 +76,7 @@ Because of these differences, SLA prints can reproduce the sharp triangular cavi
 - **Stage compatibility**: Optimized for zebrafish between 50 hpf–5 dpf.  
 - **Accessibility**: All files are openly shared for reproduction and adaptation.
 
-⚠️ **Note:** Embryos younger than 50 hpf are too small for this design. Separate molds with smaller wells would be required.
+⚠️ **Note:** Embryos younger than 50 hpf are too small for this design. Separate molds with smaller wells would be required. (see the [how-to/](how-to/) folder).
 
 ## 📚 References
 
