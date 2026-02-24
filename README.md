@@ -1,3 +1,23 @@
+# Customizable FDM 3D-printed zebrafish embryo molds for live imaging
+
+---
+
+## Introduction
+
+This repository provides design files, printing instructions, and documentation for 3D-printed molds for orienting zebrafish embryos. The molds are designed to ensure dorsal positioning of embryos during live imaging  between 50 hours post-fertilization (hpf) and 5 days post-fertilization (dpf).
+
+Unlike previously published molds fabricated with stereolithography (SLA)–based 3D printing (e.g., Geng & Peterson, 2021; Kleinhans & Lecaudey, 2019; Miller et al., 2025; Wittbrodt et al., 2014), our approach uses fused deposition modeling (FDM). Both SLA and FDM are part of the broader category of additive manufacturing, in which objects are built up layer by layer rather than removed from a solid block (subtractive manufacturing) or formed in a mold (injection molding).
+
+* SLA printing relies on a laser or UV light to cure liquid resin layer by layer, producing parts with very fine resolution and smooth surfaces.
+* FDM printing extrudes melted thermoplastic filament (such as PLA) through a heated nozzle to build up layers, making it widely accessible and cost-effective, but with lower resolution.
+
+Because of these differences, SLA prints can reproduce the sharp triangular cavities of the CAD design, while FDM prints approximate them with rectangular cavities due to nozzle width (**Figure 1A** vs **1B**). Nevertheless, the molds (**Figure 2**) remain highly effective for stabilizing zebrafish embryos, while being affordable and easy to reproduce in most laboratory settings.
+
+If you want to update the design, check the [how-to/](how-to/README.md) folder.
+
+---
+
+
 ## 📂 Repository contents
 
 * `README.md file`
@@ -26,19 +46,8 @@
 * `LICENSE`
 
 ---
+## Figures
 
-# Customizable FDM 3D-printed zebrafish embryo molds for live imaging
-
-This repository provides design files, printing instructions, and documentation for 3D-printed molds for orienting zebrafish embryos. The molds are designed to ensure dorsal positioning of embryos during live imaging  between 50 hours post-fertilization (hpf) and 5 days post-fertilization (dpf).
-
-Unlike previously published molds fabricated with stereolithography (SLA)–based 3D printing (e.g., Geng & Peterson, 2021; Kleinhans & Lecaudey, 2019; Miller et al., 2025; Wittbrodt et al., 2014), our approach uses fused deposition modeling (FDM). Both SLA and FDM are part of the broader category of additive manufacturing, in which objects are built up layer by layer rather than removed from a solid block (subtractive manufacturing) or formed in a mold (injection molding).
-
-* SLA printing relies on a laser or UV light to cure liquid resin layer by layer, producing parts with very fine resolution and smooth surfaces.
-* FDM printing extrudes melted thermoplastic filament (such as PLA) through a heated nozzle to build up layers, making it widely accessible and cost-effective, but with lower resolution.
-
-Because of these differences, SLA prints can reproduce the sharp triangular cavities of the CAD design, while FDM prints approximate them with rectangular cavities due to nozzle width (**Figure 1A** vs **1B**). Nevertheless, the molds (**Figure 2**) remain highly effective for stabilizing zebrafish embryos, while being affordable and easy to reproduce in most laboratory settings.
-
----
 
 <p align="center">
 <img src="docs/figures/FDMvsSLA.png" alt="FDM vs SLA printing comparison" width="600"/>
