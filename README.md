@@ -38,11 +38,15 @@ Unlike previously published molds fabricated with stereolithography (SLA)–base
 
 Because of these differences, SLA prints can reproduce the sharp triangular cavities of the CAD design, while FDM prints approximate them with rectangular cavities due to nozzle width (**Figure 1A** vs **1B**). Nevertheless, the molds (**Figure 2**) remain highly effective for stabilizing zebrafish embryos, while being affordable and easy to reproduce in most laboratory settings.
 
+---
+
 <p align="center">
 <img src="docs/figures/FDMvsSLA.png" alt="FDM vs SLA printing comparison" width="600"/>
 </p>
 
 **Figure 1.** Differences, through g-code preview, in mold slots between FDM (**A**) and SLA (**B**) printing.
+
+---
 
 <p align="center">
 <img src="docs/figures/Figure1_printing.png" alt="Zebrafish molds 3D designs" width="600"/>
@@ -55,6 +59,8 @@ Because of these differences, SLA prints can reproduce the sharp triangular cavi
 (**D**) PrusaSlicer g-code preview illustrating how FDM resolution (0.4 mm nozzle) converts triangular cavities into rectangular slots.
 (**E**) Exploded view of mold components, with a removable handle to facilitate positioning in small dishes.
 
+---
+
 <p align="center">
 <img src="docs/figures/Figure2_liveimaging.png" alt="Zebrafish molds 3D designs" width="600"/>
 </p>
@@ -64,14 +70,10 @@ Because of these differences, SLA prints can reproduce the sharp triangular cavi
 (**B**) Brightfield midplane-volume image of the 56hpf *Tg(fli1a:GFP-CAAX)*; *Tg(gata1a:DsRed)* larvae from **panel F** (orange boxed region), before the start of time-lapse acquisition, shown in **panels H-I**, orange box. Scale bar: 50 µm.
 (**C**) Maximum intensity projection of horizontal sections from overnight time-lapse imaging of vasculature, *Tg(fli1a:GFP-CAAX)* (cyan), and erythrocytes, *Tg(gata1a:DsRed)* (red), in the developing brain of the mounted larvae (identical to those shown in **panels F-G**, orange box). The first timepoint is shown in **panel (i)**. Temporal color coding of the *fli1:GFP* signal over the acquisition (time-lapse, 20-minute imaging interval, 32 time points) **(ii)**. The color bar indicates the transition from time point 1 (magenta) to 32 (bright yellow). See also Movie S1. Scale bars: 50 µm.
 (**D**) High-magnification (63x) imaging of the brain vascularization process. The maximum intensity projection of the first acquisition time point is shown in **(i)**. The magnified area (indicated with an orange rectangle) shows filopodia-like protrusions extending from the *fli1:GFP*-positive (cyan) endothelial tip cell **(ii)**. The *gata1a:DsRed* positive erythrocytes (red) inside a more mature blood vessel are also shown. See also Movie S1. Scale bars: 25 µm and 5 µm, respectively.
-(<p align="center">
+(**E**) Temporal color coding of microglia dynamics in *Tg(mpeg1.1:GFP-CAAX)* 72 hpf larvae, over the acquisition period (10-minute imaging interval, 80 time points). The color bar indicates the transition from time point 1 (magenta) to 80 (bright yellow). Scale bar: 50 µm.
+(**F**) Selected time-points from **panel E** (blue box),  showing microglia *Tg(mpeg1:GFP-CAAX)* (grey) migration and process elongation. Scale bar: 20 µm.
 
-<img src="docs/figures/Figure1_printing.png" alt="Zebrafish molds 3D designs" width="600"/>
-
-</p>
-
-) Temporal color coding of microglia dynamics in *Tg(mpeg1.1:GFP-CAAX)* 72 hpf larvae, over the acquisition period (10-minute imaging interval, 80 time points). The color bar indicates the transition from time point 1 (magenta) to 80 (bright yellow). Scale bar: 50 µm.
-(**E**) Selected time-points from **panel E** (blue box),  showing microglia *Tg(mpeg1:GFP-CAAX)* (grey) migration and process elongation. Scale bar: 20 µm.
+---
 
 <p align="center">
 <img src="docs/figures/MovieS1.gif" alt="Supplementary movie" width="600"/>
@@ -79,9 +81,13 @@ Because of these differences, SLA prints can reproduce the sharp triangular cavi
 
 **Supplementary Movie S1.** Movie S1. Brain vascularization in the developing brain of a mounted larva. Development of brain vasculature and erythrocyte flow in more mature vessels was imaged in larvae expressing both *Tg(fli1a:GFP-CAAX)* (cyan) and *Tg(gata1a:DsRed)* (red) reporters. For **parts A** and **B**, the time intervals are 20 and 2 minutes, and the scale bars are 40 µm and 20 µm, respectively. For **part A**, acquisition was started at 54 hpf, and for **part B**, at 68 hpf (in the same larvae).
 
+---
+
 <p align="center">
 <img src="docs/figures/MovieS2.gif" alt="Supplementary movie" width="600"/>
 </p>
+
+
 
 **Supplementary Movie S2.** Microglia migration and process extension dynamics in the developing brain of a mounted larva. Single microglia migration and elongation and retraction of its processes, labelled by *Tg(fmpeg1.1:GFP-CAAX)* (grey) reporter, was imaged for 12 hours. Time interval 10 minutes. Acquisition started at 72 hpf.  Scale bar 10  µm.
 
