@@ -26,10 +26,10 @@ Steps:
 </p>
 
 **Figure 1.** How to redesign the zebrafish molds. 
-(A) Autodesk Fusion 360 project file showing the mold with replicated wells arranged to fit a standard glass-bottom imaging dish. The red rectangle highlights the sketch to edit to modify the wells’ dimensions.
-(B–C) The well sketch can be edited by opening the first sketch in the Timeline and modifying the parameterized dimensions (example shown for the first well; red rectangle). After resizing, the offset between the first well and the dish boundary should be updated to ensure the pattern remains within the circular mold footprint (red triangle). 
-(D) If resizing causes wells to overlap, spacing and/or the number of wells can be adjusted using the Rectangular Pattern Constraint (dotted black rectangle). 
-(E) Suggested stage-dependent dimensions to guide redesign: (Ei) embryo measurements (dorso-ventral orientation) extracted from Kimmel et al. (1995); (Eii) corresponding recommended well parameters for FDM printing; (Eiii) corresponding parameters for higher-precision printing (e.g., SLA). Right: schematic of the well geometry indicating the editable parameters A-D (mm) used throughout the tables.
+(**A**) Autodesk Fusion 360 project file showing the mold with replicated wells arranged to fit a standard glass-bottom imaging dish. The red rectangle highlights the sketch to edit to modify the wells’ dimensions.
+(**B**–**C**) The well sketch can be edited by opening the first sketch in the Timeline and modifying the parameterized dimensions (example shown for the first well; red rectangle). After resizing, the offset between the first well and the dish boundary should be updated to ensure the pattern remains within the circular mold footprint (red triangle). 
+(**D**) If resizing causes wells to overlap, spacing and/or the number of wells can be adjusted using the Rectangular Pattern Constraint (dotted black rectangle). 
+(**E**) Suggested stage-dependent dimensions to guide redesign: (**E**, i) embryo measurements (dorso-ventral orientation) extracted from Kimmel et al. (1995); (**E**, ii) corresponding recommended well parameters for FDM printing; (**E**, iii) corresponding parameters for higher-precision printing (e.g., SLA). Right: schematic of the well geometry indicating the editable parameters **A**-**D** (mm) used throughout the tables.
 
 ---
 
